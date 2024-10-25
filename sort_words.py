@@ -1,3 +1,4 @@
+#use source_file.txt anf output_file.txt
 def sort_words_in_file(source_file, output_file):
     try:
         with open(source_file, 'r') as file:
